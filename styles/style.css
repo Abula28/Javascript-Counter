@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-div {
+  width: 750px;
+  height: 550px;
+  background-color: #373636;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-div h1 {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 66px;
+  margin-bottom: 65px;
+  color: #B78400;
+}
+.main-div .plus-minus {
+  display: flex;
+  align-items: center;
+  margin-bottom: 42px;
+}
+.main-div .plus-minus .card {
+  width: 120px;
+  height: 60px;
+  background: #4B4949;
+  border-radius: 10px;
+  color: #B78400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  margin-right: 21px;
+  cursor: pointer;
+  border: none;
+}
+.main-div .plus-minus .count {
+  width: 348px;
+  height: 170px;
+  cursor: default;
+}
+.main-div .reset {
+  width: 174px;
+  height: 68px;
+  background: #4B4949;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #B78400;
+  cursor: pointer;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
